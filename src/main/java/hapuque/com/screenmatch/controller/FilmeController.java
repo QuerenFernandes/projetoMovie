@@ -25,8 +25,9 @@ public class FilmeController {
     public String cadastraFilme(DadosCadastroFilme dados){
         var filmeNovo = new Filme(dados);
         listaDeFilmes.add(filmeNovo);
-        //System.out.printf(dados);
+        System.out.println(listaDeFilmes);
         return "filme/formulario";
+
     }
 
 
