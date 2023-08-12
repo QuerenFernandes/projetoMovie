@@ -9,8 +9,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     margin: 0;
@@ -21,7 +21,7 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure,
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
@@ -90,9 +90,9 @@ select {
 *,
 *::before,
 *::after {
-    --azul-escuro: #154580;
-    --azul-medio: #3970BE;
-    --azul-claro: #E5F1FF;
+    --rosa: #EFB7B7;
+    --pessego-escuro: #BD4B4B;
+    --preto: #000000;
     --cinza-texto: #444444;
     --cinza-claro: #ECECEC;
     box-sizing: border-box;
@@ -100,8 +100,9 @@ select {
 
 body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
-    background-color: var(--azul-claro);
+    background-color: var(--preto);
     font-size: 14px;
+    font-weight: bold;
     color: white;
     box-sizing: border-box;
     text-align: center;
@@ -110,7 +111,7 @@ body {
 /* NAVBAR */
 
 nav {
-    background-color: var(--azul-medio);
+    background-color: var(--pessego-escuro);
     top: 0;
     left: 0;
     width: 100%;
@@ -135,18 +136,18 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: var(--azul-claro);
+    color: var(--rosa);
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.2em;
 }
 
 nav a:hover {
-    color: var(--azul-escuro);
+    color: var(--rosa);
 }
 
 div > a {
-    color: var(--azul-escuro);
+    color: var(--rosa);
     text-decoration: underline;
     font-size: 18px;
     margin: 10px;
@@ -160,10 +161,11 @@ table {
   margin: 0 auto;
   border-collapse: collapse;
   font-size: 16px;
+  font-weight: bold;
 }
 
 th {
-  background-color: var(--azul-escuro);
+  background-color: var(--rosa);
   color: white;
   font-weight: bold;
   padding: 12px;
@@ -176,7 +178,7 @@ td {
 }
 
 tbody tr {
-  background-color: var(--azul-medio);
+  background-color: var(--pessego-escuro);
 }
 
 td a {
@@ -206,7 +208,7 @@ form div {
 }
 
 h1 {
-    color: var(--azul-medio);
+    color: var(--pessego-escuro);
     font-weight: bold;
     font-size: 24px;
     text-transform: uppercase;
@@ -225,11 +227,11 @@ label {
     line-height: 1.5;
     padding: 0 0 .1em 1em;
     font-weight: 700;
-    color: var(--azul-medio);
+    color: var(--pessego-escuro);
 }
 
 input[type="submit"] {
-  background-color: var(--azul-escuro);
+  background-color: var(--rosa);
   color: white;
   border: none;
   border-radius: 24px;
