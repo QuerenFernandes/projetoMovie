@@ -1,7 +1,13 @@
 package br.com.project.movie.model;
 
-public class Filme {
+import jakarta.persistence.*;
 
+@Entity
+@Table(name = "filmes")
+public class Filme {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     private String nome;
     private Integer anoDeLancamento;
     private Integer duracao;
@@ -28,6 +34,10 @@ public class Filme {
 
     public String getGenero() {
         return genero;
+    }
+
+    public Long getId() {
+        return id;
     }
 
     @Override
