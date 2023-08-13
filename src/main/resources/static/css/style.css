@@ -90,17 +90,17 @@ select {
 *,
 *::before,
 *::after {
-    --rosa: #EFB7B7;
-    --pessego-escuro: #BD4B4B;
-    --preto: #000000;
+    --verde-claro: #62A388;
+    --verde: #055E68;
+    --cinza: #B9D2D2;
     --cinza-texto: #444444;
     --cinza-claro: #ECECEC;
     box-sizing: border-box;
 }
 
 body {
-    font-family: Roboto, Arial, Helvetica, sans-serif;
-    background-color: var(--preto);
+    font-family: Helvetica, sans-serif;
+    background-color: var(--cinza);
     font-size: 14px;
     font-weight: bold;
     color: white;
@@ -111,7 +111,7 @@ body {
 /* NAVBAR */
 
 nav {
-    background-color: var(--pessego-escuro);
+    background-color: var(--verde);
     top: 0;
     left: 0;
     width: 100%;
@@ -136,18 +136,18 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: var(--rosa);
+    color: var(--verde-claro);
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.2em;
 }
 
 nav a:hover {
-    color: var(--rosa);
+    color: var(--verde-claro);
 }
 
 div > a {
-    color: var(--rosa);
+    color: var(--verde-claro);
     text-decoration: underline;
     font-size: 18px;
     margin: 10px;
@@ -165,7 +165,7 @@ table {
 }
 
 th {
-  background-color: var(--rosa);
+  background-color: var(--verde-claro);
   color: white;
   font-weight: bold;
   padding: 12px;
@@ -178,7 +178,7 @@ td {
 }
 
 tbody tr {
-  background-color: var(--pessego-escuro);
+  background-color: var(--verde);
 }
 
 td a {
@@ -208,7 +208,7 @@ form div {
 }
 
 h1 {
-    color: var(--pessego-escuro);
+    color: var(--verde);
     font-weight: bold;
     font-size: 24px;
     text-transform: uppercase;
@@ -227,11 +227,11 @@ label {
     line-height: 1.5;
     padding: 0 0 .1em 1em;
     font-weight: 700;
-    color: var(--pessego-escuro);
+    color: var(--verde);
 }
 
 input[type="submit"] {
-  background-color: var(--rosa);
+  background-color: var(--verde-claro);
   color: white;
   border: none;
   border-radius: 24px;
